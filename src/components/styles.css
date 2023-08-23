@@ -1,0 +1,78 @@
+.deactivated {
+  width: 5%;
+  height: 460vh;
+  background-color: black;
+}
+.activated {
+  min-width: 200px;
+  height: 460vh;
+  background-color: #ea7465;
+}
+.check2 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-top: -15px;
+}
+.check {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-top: -15px;
+}
+.progress-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #8ec9db;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding-bottom: 10px;
+}
+
+.progress-circle .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #5d74f1 50%, transparent 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.progress-circle .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+/* styles.css */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  overflow-x: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  max-width: 20px;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.hoverable:hover {
+  background-color: #c1c1c1;
+  cursor: pointer;
+}
